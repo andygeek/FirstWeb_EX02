@@ -76,3 +76,49 @@ body{
     letter-spacing: 1px;
     cursor: pointer;
 }
+.animation{
+    animation-name: moven;
+    animation-duration: 0.4s;
+    animation-fill-mode: both;
+    animation-delay: 2s; 
+}
+.a1{
+    animation-delay: 2s;
+}
+.a2{
+    animation-delay: 2.1s;
+}
+.a3{
+    animation-delay: 2.2s;
+}
+.a5{
+    animation-delay: 2.4s;
+}
+.a6{
+    animation-delay: 2.5s;
+}
+@keyframes moven{
+    0%{
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-40px);
+    }
+    100%{
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes left-section{
+    0%{
+        opacity: 0;
+        width: 0;
+    }
+    100%{
+        opacity: 100%;
+        padding: 30px;
+        width: 440px;
+    }
+}
+
