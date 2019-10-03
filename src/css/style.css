@@ -66,3 +66,13 @@ body{
     border-color: #0f7ef1;
 
 }
+.form button{
+    padding: 12px 10px;
+    border: 0;
+    background: linear-gradient(to right, #f50629 0%, #fd9d08 100%);
+    border-radius: 3px;
+    margin-top: 10px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
